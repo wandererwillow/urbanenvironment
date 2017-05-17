@@ -3,7 +3,7 @@ var coords = [1.306487, 103.835907];
 
 var world = VIZI.world('world', {
     skybox: true,
-    postProcessing: true
+    postProcessing: false
 }).setView(coords);
 
 // Set position of sun in sky
